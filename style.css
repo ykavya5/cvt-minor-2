@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "DM Sans";
+}
+
+.root {
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+    font-family: "Delius Unicase";
+    font-size: 3.5em;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    background-color: #6F6AF7;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size : 1.5em;
+    font-family:"DM Sans";
+}
+
+.mainmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    height: 4px;
+    width: 35px;
+    background-color: white;
+    /* padding: 2px 0; */
+    margin: 4px 0;
+}
+
+select {
+    background-color: #6F6AF7;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+ #search {
+    border-radius: 15px;
+    height: 2.5em;
+    padding-left: 30px;
+    border: none;
+    position: relative;
+}
+    form{
+        position: relative;
+    }
+
+    form .fa-search{
+        position: absolute;
+        right : 10px;
+        color: #aaa;
+        top: 5px;
+    }
+
+.image1 {
+    height: 55vh;
+    width: 20vw;
+    margin-right: 3em;
+}
+
+.description {
+    height: 55vh;
+    width: 80vw;
+    color: #6F7373;
+    background-color: #E5D8FF;
+    border: 1px solid #E5D8FF;
+    border-radius: 10px;
+    padding: 1.5em;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 1.8em;
+
+}
+.social-icons{
+    
+    height : 37vh;
+    width: 10vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    right: 0.05em;
+    float: right;
+   
+}
+.imgsoc{
+    justify-content: flex-end;
+     position : absolute;
+    right: -6.3em;  
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 9.5em 6em 5em 7em;
+    position : relative;
+}
+
+.total {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+   
+}
+
+#ques {
+    border: 1px solid #929DFF;
+    background-color: #929DFF;
+    height: 10vh;
+    width: 12vw;
+    padding : 1em; 
+    text-align: left;
+    color: white;
+    border-radius: 0.5em;
+    line-height: 1.5em;
+    font-size: 1em;
+
+}
+#passed {
+    border: 1px solid black;
+    background-color: black;
+    height: 10vh;
+    width: 12vw;
+    padding : 1em; 
+    text-align: left;
+    color: white;
+    border-radius: 0.5em;
+    line-height: 1.5em;
+    font-size: 1em;
+
+
+}
+#ans {
+    border: 1px solid #734CF2;
+    background-color:#734CF2;
+    height: 10vh;
+    width: 12vw;
+    padding : 1em; 
+    text-align: left;
+    color: white;
+    border-radius: 0.5em;
+    line-height: 1.5em;
+    font-size: 1em;
+
+}
+#participants {
+    border: 1px solid  #D288FF;
+    background-color:  #D288FF;
+    height: 10vh;
+    width: 12vw;
+    padding : 1em; 
+    text-align: left;
+    color: white;
+    border-radius: 0.5em;
+    line-height: 1.5em;
+    font-size: 1em;
+
+
+}
+.info{
+    height: 65vh;
+    margin: 5em ;
+    background-color:  #483EFF;
+    border-radius: 15px;
+    display: flex;
+    
+}
+.info-left{
+   
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    /* margin-top: 2.1em; */
+    
+}
+.info-left div{
+    margin: 2em 2em 0em 2em;
+   
+}
+.yourinfo{
+    margin: 3em;
+    border: 3px solid  #BCE0F6;
+    background-color: #BCE0F6;
+    height: 10vh;
+    width: 13vw;
+    padding : 1em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 0.5em;
+    font-size: 1em;
+    
+
+}
+.bookmarks{
+    margin : 3em;
+    border: 3px solid white;
+    height: 10vh;
+    width: 13vw;
+    padding : 1em; 
+    text-align: center;
+    color: white;
+    border-radius: 0.5em;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.settings{
+    margin : 3em;
+    border: 3px solid white;
+    height: 10vh;
+    width: 13vw;
+    padding : 1em; 
+    text-align: center;
+    color: white;
+    border-radius: 0.5em;
+    font-size: 1em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.help-icon{
+    height: 12vh;
+    width : 8vw;
+    position: absolute;
+    right: 3.5em;
+    bottom: -0.9em;
+    position: fixed;
+    z-index: 1;   
+    overflow-y: auto;
+}
+.info-right{
+    background-color: white;
+    height : 85%;
+    width: 80%;
+    margin: 2em 2em 2em 0em;
+    border-radius: 15px;
+    padding: 2em;
+    line-height: 2em;
+    position: relative;
+
+}
+.info-right h1{
+    line-height: 1.5em;
+
+}
+.info-right label{
+    
+    margin-left : 3.3em;
+}
+.info-right input{
+    border: none;
+}
+.info-right button{
+    background-color: black;
+    color: white;
+    font-size : 1em;
+    text-align: center;
+    height : 4vh;
+    width: 5vw;
+    position: absolute;
+    bottom: 2rem; 
+    right: 2rem;
+}
+.info-right button::after {
+    content: '\2192'; 
+    margin-left: 8px;}
